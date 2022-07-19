@@ -144,6 +144,9 @@ p {
     .blurb {
         padding: 0 20%;
     }
+    .main-content {
+      justify-content: center;
+        }
 }
 
 
