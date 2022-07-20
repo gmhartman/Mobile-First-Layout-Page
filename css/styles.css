@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
 }
 .wrapper {
@@ -43,31 +43,36 @@ p {
     margin: 0px;
 }
 #portfolio, .main-content{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 #skills {
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
 }
-
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.main-header,
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-nav {
+  display: none;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 /* MEDIA QUERIES */
-@media (min-width: 320px) {
-    .wrapper {
-        width: 80%;
-        margin: 0 auto;
-        max-width: 1000px;
-    }
-    .main-header,
-    .main-nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-}
 
 @media (min-width: 768px) {
     .main-header,
@@ -118,6 +123,9 @@ p {
         display: flex;
         flex-direction: row;
         gap: 10px;
+    }
+    .btt {
+      display: none;
     }
     }
 
